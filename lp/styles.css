@@ -39,6 +39,10 @@ a {
   margin-inline: auto;
 }
 
+.container--treatments {
+  width: min(100% - 2.5rem, 40rem);
+}
+
 .wide {
   width: min(100% - 2.5rem, 68rem);
   margin-inline: auto;
@@ -379,7 +383,22 @@ a {
 
 @media (min-width: 640px) {
   .treatment-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .treatment-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.05rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .treatment-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1.1rem;
   }
 }
 
@@ -616,6 +635,11 @@ a {
 @media (min-width: 768px) {
   .container {
     width: min(100% - 3rem, 44rem);
+  }
+
+  .container.container--treatments {
+    width: 80%;
+    max-width: 88rem;
   }
 
   .hero-content {
