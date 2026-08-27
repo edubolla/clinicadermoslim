@@ -513,9 +513,12 @@ a {
   animation: floatIn 0.7s ease 0.6s both;
 }
 
-.wa-float svg {
+.wa-float img {
   width: 1.55rem;
   height: 1.55rem;
+  display: block;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
 }
 
 @keyframes heroZoom {
