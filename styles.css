@@ -136,10 +136,11 @@ h1 {
 }
 
 .social-icon {
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
   display: block;
   object-fit: contain;
+  flex-shrink: 0;
 }
 
 .footer {
