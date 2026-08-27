@@ -147,8 +147,37 @@
         <div class="container">
           <h2 class="section-title" id="tratamentos-title">Tratamentos</h2>
           <p class="section-lead">
-            Explore por categoria. Toque para ver os procedimentos disponíveis.
+            Explore por categoria. Toque para ver os procedimentos e agendar sua avaliação.
           </p>
+
+          <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+            <symbol id="t-icon-glow" viewBox="0 0 24 24">
+              <path d="M12 3v2M12 19v2M5 12H3M21 12h-2M6.3 6.3l1.4 1.4M16.3 16.3l1.4 1.4M6.3 17.7l1.4-1.4M16.3 7.7l1.4-1.4"/>
+              <circle cx="12" cy="12" r="4"/>
+            </symbol>
+            <symbol id="t-icon-fill" viewBox="0 0 24 24">
+              <path d="M4 10c2-3 5-4 8-4s6 1 8 4c-2 3-5 6-8 8-3-2-6-5-8-8z"/>
+            </symbol>
+            <symbol id="t-icon-lift" viewBox="0 0 24 24">
+              <path d="M12 19V9M8 13l4-4 4 4"/>
+              <path d="M5 21h14"/>
+            </symbol>
+            <symbol id="t-icon-peel" viewBox="0 0 24 24">
+              <path d="M4 18h16M6 14h12M8 10h8M10 6h4"/>
+            </symbol>
+            <symbol id="t-icon-skin" viewBox="0 0 24 24">
+              <path d="M12 3c-4 0-7 3-7 7 0 5 4 11 7 11s7-6 7-11c0-4-3-7-7-7z"/>
+              <path d="M9.5 10.5h.01M14.5 10.5h.01"/>
+            </symbol>
+            <symbol id="t-icon-body" viewBox="0 0 24 24">
+              <circle cx="12" cy="5" r="2"/>
+              <path d="M12 7v6M9 21v-4l3-3 3 3v4M9 13h6"/>
+            </symbol>
+            <symbol id="t-icon-hair" viewBox="0 0 24 24">
+              <path d="M6 9c0-3 2.7-5 6-5s6 2 6 5c0 5-3.5 10-6 12C9 19 6 14 6 9z"/>
+              <path d="M10 8c.5 1 1.5 1.5 2 1.5s1.5-.5 2-1.5"/>
+            </symbol>
+          </svg>
 
           <div class="accordion" data-accordion>
             <article class="acc-item is-open">
@@ -157,22 +186,120 @@
                 <span aria-hidden="true">+</span>
               </button>
               <div class="acc-panel">
-                <ul>
-                  <li>Bioestimuladores</li>
-                  <li>Preenchimento</li>
-                  <li>Linhas de expressão</li>
-                  <li>Flacidez de pálpebras</li>
-                  <li>Flacidez facial</li>
-                  <li>Rejuvenescimento com naturalidade</li>
-                  <li>Peeling químico</li>
-                  <li>Peeling diamante</li>
-                  <li>Microagulhamento facial</li>
-                  <li>Limpeza de pele profunda profissional</li>
-                  <li>Dermaplaning</li>
-                  <li>Tratamento de manchas</li>
-                  <li>Tratamento para olheiras</li>
-                  <li>Tratamento para cicatriz de acne</li>
-                </ul>
+                <div class="treatment-grid">
+                <article class="treatment-card">
+                  <div class="treatment-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><use href="#t-icon-glow"/></svg>
+                  </div>
+                  <h3>Bioestimuladores</h3>
+                  <p>Estimule a produção natural de colágeno para firmeza e elasticidade com resultados progressivos.</p>
+                  <a class="treatment-link" href="https://wa.me/5551981805592?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20Bioestimuladores." target="_blank" rel="noopener noreferrer">Agendar →</a>
+                </article>
+                <article class="treatment-card">
+                  <div class="treatment-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><use href="#t-icon-fill"/></svg>
+                  </div>
+                  <h3>Preenchimento</h3>
+                  <p>Restaura volume e contorno em pontos estratégicos do rosto com precisão e equilíbrio estético.</p>
+                  <a class="treatment-link" href="https://wa.me/5551981805592?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20Preenchimento." target="_blank" rel="noopener noreferrer">Agendar →</a>
+                </article>
+                <article class="treatment-card">
+                  <div class="treatment-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><use href="#t-icon-fill"/></svg>
+                  </div>
+                  <h3>Linhas de expressão</h3>
+                  <p>Suaviza marcas dinâmicas preservando a expressividade e a naturalidade do rosto.</p>
+                  <a class="treatment-link" href="https://wa.me/5551981805592?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20Linhas%20de%20express%C3%A3o." target="_blank" rel="noopener noreferrer">Agendar →</a>
+                </article>
+                <article class="treatment-card">
+                  <div class="treatment-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><use href="#t-icon-lift"/></svg>
+                  </div>
+                  <h3>Flacidez de pálpebras</h3>
+                  <p>Protocolos focados para repor firmeza e rejuvenescer o olhar com sutileza.</p>
+                  <a class="treatment-link" href="https://wa.me/5551981805592?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20Flacidez%20de%20p%C3%A1lpebras." target="_blank" rel="noopener noreferrer">Agendar →</a>
+                </article>
+                <article class="treatment-card">
+                  <div class="treatment-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><use href="#t-icon-lift"/></svg>
+                  </div>
+                  <h3>Flacidez facial</h3>
+                  <p>Tratamentos para redefinir contornos e recuperar a sustentação da pele do rosto.</p>
+                  <a class="treatment-link" href="https://wa.me/5551981805592?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20Flacidez%20facial." target="_blank" rel="noopener noreferrer">Agendar →</a>
+                </article>
+                <article class="treatment-card">
+                  <div class="treatment-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><use href="#t-icon-glow"/></svg>
+                  </div>
+                  <h3>Rejuvenescimento com naturalidade</h3>
+                  <p>Planos integrados para renovar a pele sem perder a identidade facial.</p>
+                  <a class="treatment-link" href="https://wa.me/5551981805592?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20Rejuvenescimento%20com%20naturalidade." target="_blank" rel="noopener noreferrer">Agendar →</a>
+                </article>
+                <article class="treatment-card">
+                  <div class="treatment-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><use href="#t-icon-peel"/></svg>
+                  </div>
+                  <h3>Peeling químico</h3>
+                  <p>Renovação celular controlada para textura mais uniforme, luminosa e revitalizada.</p>
+                  <a class="treatment-link" href="https://wa.me/5551981805592?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20Peeling%20qu%C3%ADmico." target="_blank" rel="noopener noreferrer">Agendar →</a>
+                </article>
+                <article class="treatment-card">
+                  <div class="treatment-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><use href="#t-icon-peel"/></svg>
+                  </div>
+                  <h3>Peeling diamante</h3>
+                  <p>Esfoliação mecânica suave que alisa, ilumina e prepara a pele para outros protocolos.</p>
+                  <a class="treatment-link" href="https://wa.me/5551981805592?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20Peeling%20diamante." target="_blank" rel="noopener noreferrer">Agendar →</a>
+                </article>
+                <article class="treatment-card">
+                  <div class="treatment-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><use href="#t-icon-skin"/></svg>
+                  </div>
+                  <h3>Microagulhamento facial</h3>
+                  <p>Estimulação controlada da pele para colágeno, cicatrizes e qualidade dérmica.</p>
+                  <a class="treatment-link" href="https://wa.me/5551981805592?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20Microagulhamento%20facial." target="_blank" rel="noopener noreferrer">Agendar →</a>
+                </article>
+                <article class="treatment-card">
+                  <div class="treatment-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><use href="#t-icon-skin"/></svg>
+                  </div>
+                  <h3>Limpeza de pele profunda profissional</h3>
+                  <p>Higienização profunda com extração e cuidados clínicos para pele saudável.</p>
+                  <a class="treatment-link" href="https://wa.me/5551981805592?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20Limpeza%20de%20pele%20profunda%20profissional." target="_blank" rel="noopener noreferrer">Agendar →</a>
+                </article>
+                <article class="treatment-card">
+                  <div class="treatment-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><use href="#t-icon-skin"/></svg>
+                  </div>
+                  <h3>Dermaplaning</h3>
+                  <p>Remoção de células mortas e vilosidade superficial para pele lisa e luminosa.</p>
+                  <a class="treatment-link" href="https://wa.me/5551981805592?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20Dermaplaning." target="_blank" rel="noopener noreferrer">Agendar →</a>
+                </article>
+                <article class="treatment-card">
+                  <div class="treatment-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><use href="#t-icon-skin"/></svg>
+                  </div>
+                  <h3>Tratamento de manchas</h3>
+                  <p>Protocolos direcionados para uniformizar o tom e clarear hiperpigmentações.</p>
+                  <a class="treatment-link" href="https://wa.me/5551981805592?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20Tratamento%20de%20manchas." target="_blank" rel="noopener noreferrer">Agendar →</a>
+                </article>
+                <article class="treatment-card">
+                  <div class="treatment-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><use href="#t-icon-fill"/></svg>
+                  </div>
+                  <h3>Tratamento para olheiras</h3>
+                  <p>Abordagem personalizada para um olhar mais descansado e harmonioso.</p>
+                  <a class="treatment-link" href="https://wa.me/5551981805592?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20Tratamento%20para%20olheiras." target="_blank" rel="noopener noreferrer">Agendar →</a>
+                </article>
+                <article class="treatment-card">
+                  <div class="treatment-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><use href="#t-icon-skin"/></svg>
+                  </div>
+                  <h3>Tratamento para cicatriz de acne</h3>
+                  <p>Melhora a textura e a aparência de cicatrizes com protocolos específicos.</p>
+                  <a class="treatment-link" href="https://wa.me/5551981805592?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20Tratamento%20para%20cicatriz%20de%20acne." target="_blank" rel="noopener noreferrer">Agendar →</a>
+                </article>
+                </div>
               </div>
             </article>
 
@@ -182,14 +309,56 @@
                 <span aria-hidden="true">+</span>
               </button>
               <div class="acc-panel">
-                <ul>
-                  <li>Gordura localizada</li>
-                  <li>Flacidez</li>
-                  <li>Celulite</li>
-                  <li>Estrias</li>
-                  <li>Depilação definitiva</li>
-                  <li>PEM (secagem de microvasos)</li>
-                </ul>
+                <div class="treatment-grid">
+                <article class="treatment-card">
+                  <div class="treatment-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><use href="#t-icon-body"/></svg>
+                  </div>
+                  <h3>Gordura localizada</h3>
+                  <p>Redução direcionada com tecnologias corporais e protocolo individualizado.</p>
+                  <a class="treatment-link" href="https://wa.me/5551981805592?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20Gordura%20localizada." target="_blank" rel="noopener noreferrer">Agendar →</a>
+                </article>
+                <article class="treatment-card">
+                  <div class="treatment-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><use href="#t-icon-body"/></svg>
+                  </div>
+                  <h3>Flacidez</h3>
+                  <p>Tratamentos para firmeza e sustentação da pele corporal com resultados progressivos.</p>
+                  <a class="treatment-link" href="https://wa.me/5551981805592?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20Flacidez." target="_blank" rel="noopener noreferrer">Agendar →</a>
+                </article>
+                <article class="treatment-card">
+                  <div class="treatment-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><use href="#t-icon-body"/></svg>
+                  </div>
+                  <h3>Celulite</h3>
+                  <p>Abordagem combinada para suavizar o aspecto da celulite e melhorar a textura da pele.</p>
+                  <a class="treatment-link" href="https://wa.me/5551981805592?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20Celulite." target="_blank" rel="noopener noreferrer">Agendar →</a>
+                </article>
+                <article class="treatment-card">
+                  <div class="treatment-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><use href="#t-icon-body"/></svg>
+                  </div>
+                  <h3>Estrias</h3>
+                  <p>Estímulo e regeneração para atenuar estrias e elevar a qualidade da pele.</p>
+                  <a class="treatment-link" href="https://wa.me/5551981805592?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20Estrias." target="_blank" rel="noopener noreferrer">Agendar →</a>
+                </article>
+                <article class="treatment-card">
+                  <div class="treatment-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><use href="#t-icon-body"/></svg>
+                  </div>
+                  <h3>Depilação definitiva</h3>
+                  <p>Eliminação progressiva dos pelos com luz pulsada, mais conforto e praticidade.</p>
+                  <a class="treatment-link" href="https://wa.me/5551981805592?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20Depila%C3%A7%C3%A3o%20definitiva." target="_blank" rel="noopener noreferrer">Agendar →</a>
+                </article>
+                <article class="treatment-card">
+                  <div class="treatment-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><use href="#t-icon-body"/></svg>
+                  </div>
+                  <h3>PEM (secagem de microvasos)</h3>
+                  <p>Tratamento de microvasos e vasinhos com aplicação precisa e segura.</p>
+                  <a class="treatment-link" href="https://wa.me/5551981805592?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20PEM%20%28secagem%20de%20microvasos%29." target="_blank" rel="noopener noreferrer">Agendar →</a>
+                </article>
+                </div>
               </div>
             </article>
 
@@ -199,10 +368,24 @@
                 <span aria-hidden="true">+</span>
               </button>
               <div class="acc-panel">
-                <ul>
-                  <li>Tricologia</li>
-                  <li>Microagulhamento capilar</li>
-                </ul>
+                <div class="treatment-grid">
+                <article class="treatment-card">
+                  <div class="treatment-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><use href="#t-icon-hair"/></svg>
+                  </div>
+                  <h3>Tricologia</h3>
+                  <p>Avaliação e tratamento capilar com foco na saúde do couro cabeludo e no crescimento.</p>
+                  <a class="treatment-link" href="https://wa.me/5551981805592?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20Tricologia." target="_blank" rel="noopener noreferrer">Agendar →</a>
+                </article>
+                <article class="treatment-card">
+                  <div class="treatment-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><use href="#t-icon-hair"/></svg>
+                  </div>
+                  <h3>Microagulhamento capilar</h3>
+                  <p>Estimulação do couro cabeludo para fortalecer fios e favorecer a densidade.</p>
+                  <a class="treatment-link" href="https://wa.me/5551981805592?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20Microagulhamento%20capilar." target="_blank" rel="noopener noreferrer">Agendar →</a>
+                </article>
+                </div>
               </div>
             </article>
           </div>
